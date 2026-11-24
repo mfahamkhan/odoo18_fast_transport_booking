@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_transport_route_user,transport.route.user,model_transport_route,,1,0,0,0
+access_transport_route_admin,transport.route.admin,model_transport_route,base.group_system,1,1,1,1
+access_transport_vehicle_user,transport.vehicle.user,model_transport_vehicle,,1,0,0,0
+access_transport_vehicle_admin,transport.vehicle.admin,model_transport_vehicle,base.group_system,1,1,1,1
+access_transport_booking_user,transport.booking.user,model_transport_booking,,1,0,0,0
+access_transport_booking_admin,transport.booking.admin,model_transport_booking,base.group_system,1,1,1,1
+access_fleet_vehicle_user,fleet.vehicle.user,fleet.model_fleet_vehicle,,1,0,0,0

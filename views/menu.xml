@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_transport_booking_fast" model="ir.actions.client">
+        <field name="name">Fast Booking</field>
+        <field name="tag">transport.booking.screen</field>
+    </record>
+
+    <menuitem id="menu_transport_root"
+              name="Transport Booking"
+              sequence="10"/>
+
+    <menuitem id="menu_transport_booking"
+              name="Fast Booking"
+              parent="menu_transport_root"
+              action="action_transport_booking_fast"
+              sequence="1"/>
+</odoo>
